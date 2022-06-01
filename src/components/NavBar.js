@@ -1,26 +1,25 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Login from "../pages/Login";
-import SignUp from "../pages/SignUp";
+import React from "react";
+import { Link } from 'react-router-dom'
+import '../index.css'
 
-export default class Navbar extends Component {
-  render() {
+function NavBar () {
+
     return (
-      <>
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
           <div className="container">
-            <Link className="navbar-brand" to={"/sign-in"}>
-              OrderingSimplified✌
+            <Link className="navbar-brand" to={'/home'}>
+            <img src="/assets/logo2.png" style={{height: '30px', paddingRight: '10px'}}/>
+              Ordering Simplified 
             </Link>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                  <Link className="nav-link" to={"/sign-in"}>
+                  <Link className="nav-link" to={'/login'}>
                     Login
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to={"/sign-up"}>
+                  <Link className="nav-link" to={'/sign-up'}>
                     Sign up
                   </Link>
                 </li>
@@ -28,17 +27,7 @@ export default class Navbar extends Component {
             </div>
           </div>
         </nav>
-
-        <div className="auth-wrapper">
-          <div className="auth-inner">
-            <Routes>
-              <Route exact path="/" element={<Login />} />
-              <Route path="/sign-in" element={<Login />} />
-              <Route path="/sign-up" element={<SignUp />} />
-            </Routes>
-          </div>
-        </div>
-      </>
-    );
-  }
+    )
 }
+
+export default NavBar;
