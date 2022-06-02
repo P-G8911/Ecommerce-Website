@@ -39,17 +39,17 @@ export default class Home extends Component {
           <div className="container-fluid">
             <div className="row">
               <div className="feature-box col-lg-4">
-                <i className="icon fa fa-solid fa-user-shield fa-6x"></i>
+                <i className="icon fa fa-solid fa-user-shield fa-5x"></i>
                 <h3 className="feature-title">User Protection</h3>
               </div>
 
               <div className="feature-box col-lg-4">
-                <i className="icon fa fa-solid fa-truck fa-6x"></i>
+                <i className="icon fa fa-solid fa-truck fa-5x"></i>
                 <h3 className="feature-title">Fast Delivery</h3>
               </div>
 
               <div className="feature-box col-lg-4">
-                <i className="icon fa fa-solid fa-exchange-alt fa-6x"></i>
+                <i className="icon fa fa-solid fa-exchange-alt fa-5x"></i>
                 <h3 className="feature-title">Easy Returns</h3>
               </div>
             </div>
