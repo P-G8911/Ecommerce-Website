@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 body {
   /* background: #1C8EF9 !important; */
   min-height: 100vh;
@@ -66,7 +66,7 @@ body, html, .App, #root, .auth-wrapper {
 }
 
 .container-fluid {
-  padding: 7% 15%;
+  padding: 3% 7% 15%;
 }
 
 #features {
@@ -87,11 +87,24 @@ padding-left: 0.6rem;
 }
 
 .icon {
-  color: #ef8172;
+  color: #ff4c68;
   margin-bottom: 2rem;
-  padding-left: 1.5rem;
+  padding-left: 1.4rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #ef8172;
+}
+
+#footer{
+   padding-left: 45%;
+}
+
+.footer-icons {
+  margin: 3% 2%;
+  padding-left: 1%;
+}
+
+#copyright{
+  padding-right: 20%;
 }

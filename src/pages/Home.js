@@ -13,7 +13,7 @@ export default class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/assets/carousel5.png"
+              src="/assets/carousel6.png"
               alt="First slide"
             />
           </Carousel.Item>
@@ -21,7 +21,7 @@ export default class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/assets/carousel6.png"
+              src="/assets/carousel5.png"
               alt="Second slide"
             />
           </Carousel.Item>
@@ -55,6 +55,16 @@ export default class Home extends Component {
             </div>
           </div>
         </section>
+
+        <footer className="white-section" id="footer">
+          <div className="container-fluid">
+            <i className="footer-icons fa-brands fa-facebook"></i>
+            <i className="footer-icons fa-brands fa-twitter"></i>
+            <i className="footer-icons fa-brands fa-instagram"></i>
+            <i className="footer-icons fa-solid fa-envelope"></i>
+            <p id = 'copyright'>© Copyright Ordering Simplified</p>
+          </div>
+        </footer>
       </>
     );
   }
