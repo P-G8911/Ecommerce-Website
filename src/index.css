@@ -102,9 +102,17 @@ padding-left: 0.6rem;
 
 .footer-icons {
   margin: 3% 2%;
-  padding-left: 1%;
+  padding-left: 0.6%;
 }
 
-#copyright{
-  padding-right: 20%;
+.footer-icons :hover{
+  color: #ff4c68;
 }
+
+#toll{
+  padding-left: 2%;
+}
+
+/* #copyright{
+  padding-right: 20%;
+} */

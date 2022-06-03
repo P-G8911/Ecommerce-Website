@@ -13,7 +13,7 @@ export default class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/assets/carousel6.png"
+              src="/assets/My Post.png"
               alt="First slide"
             />
           </Carousel.Item>
@@ -21,7 +21,7 @@ export default class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/assets/carousel5.png"
+              src="/assets/carousel6.png"
               alt="Second slide"
             />
           </Carousel.Item>
@@ -62,7 +62,8 @@ export default class Home extends Component {
             <i className="footer-icons fa-brands fa-twitter"></i>
             <i className="footer-icons fa-brands fa-instagram"></i>
             <i className="footer-icons fa-solid fa-envelope"></i>
-            <p id = 'copyright'>© Copyright Ordering Simplified</p>
+            <p id = 'toll'>Toll-Free No 1800 XXXXXX</p>
+            <p>© Copyright Ordering Simplified</p>
           </div>
         </footer>
       </>
