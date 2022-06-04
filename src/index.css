@@ -73,9 +73,9 @@ body, html, .App, #root, .auth-wrapper {
   position: relative;
 }
 
-.row{
+/* .row{
   padding-left: 15%;
-}
+} */
  
 .feature-box {
   padding: 5%;

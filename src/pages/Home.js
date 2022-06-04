@@ -2,11 +2,7 @@ import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "../index.css";
 import NavBar from "../components/NavBar";
-// import CategoryCard from "../components/CategoryCard";
-// import { Container } from "react-bootstrap";
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import Cards from '../Cards/cards.jsx';
 
 export default class Home extends Component {
   render() {
@@ -41,12 +37,9 @@ export default class Home extends Component {
           </Carousel.Item>
         </Carousel>
 
+        <Cards/>
 
-        <section
-          className="white-section"
-          id="features"
-          style={{ marginTop: "30px" }}
-        >
+        <section className="white-section" id="features">
           <div className="container-fluid">
             <div className="row">
               <div className="feature-box col-lg-4">
