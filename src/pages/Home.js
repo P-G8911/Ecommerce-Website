@@ -83,6 +83,3 @@ export default class Home extends Component {
   }
 }
 
-{
-  /* diya image added */
-}
