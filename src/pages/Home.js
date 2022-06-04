@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "../index.css";
 import NavBar from "../components/NavBar";
+// import CategoryCard from "../components/CategoryCard";
+// import { Container } from "react-bootstrap";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 export default class Home extends Component {
   render() {
@@ -9,6 +14,7 @@ export default class Home extends Component {
       <>
         <NavBar />
 
+        {/* Carousel Section */}
         <Carousel style={{ height: "600px", overflow: "hidden" }}>
           <Carousel.Item>
             <img
@@ -35,7 +41,12 @@ export default class Home extends Component {
           </Carousel.Item>
         </Carousel>
 
-        <section className="white-section" id="features">
+
+        <section
+          className="white-section"
+          id="features"
+          style={{ marginTop: "30px" }}
+        >
           <div className="container-fluid">
             <div className="row">
               <div className="feature-box col-lg-4">
@@ -56,17 +67,22 @@ export default class Home extends Component {
           </div>
         </section>
 
+        <img id="diya" src="/assets/diyas.jpg" />
         <footer className="white-section" id="footer">
           <div className="container-fluid">
             <i className="footer-icons fa-brands fa-facebook"></i>
             <i className="footer-icons fa-brands fa-twitter"></i>
             <i className="footer-icons fa-brands fa-instagram"></i>
             <i className="footer-icons fa-solid fa-envelope"></i>
-            <p id = 'toll'>Toll-Free No 1800 XXXXXX</p>
+            <p id="toll">Toll-Free No 1800 XXXXXX</p>
             <p>© Copyright Ordering Simplified</p>
           </div>
         </footer>
       </>
     );
   }
+}
+
+{
+  /* diya image added */
 }
