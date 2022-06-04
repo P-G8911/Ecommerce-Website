@@ -8,9 +8,10 @@ export default class Home extends Component {
   render() {
     return (
       <>
+        {/* Navbar section */}
         <NavBar />
 
-        {/* Carousel Section */}
+        {/* Header section */}
         <Carousel style={{ height: "600px", overflow: "hidden" }}>
           <Carousel.Item>
             <img
@@ -37,8 +38,13 @@ export default class Home extends Component {
           </Carousel.Item>
         </Carousel>
 
+
+
+        {/* shop by categories */}
         <Cards/>
 
+
+        {/* Features section */}
         <section className="white-section" id="features">
           <div className="container-fluid">
             <div className="row">
@@ -60,6 +66,8 @@ export default class Home extends Component {
           </div>
         </section>
 
+
+        {/* Diya image */}
         <img id="diya" src="/assets/diyas.jpg" />
         <footer className="white-section" id="footer">
           <div className="container-fluid">
